@@ -1,0 +1,65 @@
+{
+  "agricultural_products": {
+    "dormulin": ["dormolin", "dormalin", "dormlin", "dormalin", "dormuline"],
+    "zetol": ["zetal", "zetol", "zeetol", "zetall", "zetal"],
+    "akre": ["acre", "acer", "akr", "aker", "acr"],
+    "tracs": ["tracks", "trax", "track", "trac", "traks"],
+    "trail": ["trail", "tral", "trayl", "treil"],
+    "actin": ["acting", "acten", "aktin", "actine"]
+  },
+  "product_combinations": {
+    "akre shield": ["acre shield", "acer shield", "aker shield", "acr shield"],
+    "zetol select": ["zetal select", "zetall select", "zeetol select"],
+    "trail blaze": ["trail blaze", "tral blaze", "trayl blaze"],
+    "tracs sure": ["tracks sure", "trax sure", "track sure", "trac sure"],
+    "dormulin vegetative": ["dormolin vegetative", "dormalin vegetative", "dormlin vegetative"],
+    "dormulin flowering": ["dormolin flowering", "dormalin flowering", "dormlin flowering"]
+  },
+  "technical_terms": {
+    "fertigation": ["fertigate", "fertgation", "fertigaton"],
+    "foliar": ["folier", "folear", "foliar"],
+    "phorate": ["forate", "phorat", "forat"],
+    "carbofuron": ["carbofuran", "carboferon", "carbofurun"],
+    "triazophos": ["triazofos", "triazophos", "triazofos"],
+    "imidacloprid": ["imidacloprid", "imidaclopryd", "imidaclopred"],
+    "thiamethoxam": ["thiamethoxam", "thiamethoxem", "thiamethoxim"],
+    "chlorantraniliprole": ["chlorantraniliprole", "chlorantraniliprol", "chlorantraniliprole"],
+    "emamectin": ["emamectin", "emamektin", "emamecten"],
+    "flubendiamide": ["flubendiamide", "flubendiamid", "flubendiamyde"],
+    "acetamiprid": ["acetamiprid", "acetamipryd", "acetamipred"],
+    "diafenthiuron": ["diafenthiuron", "diafenthiuran", "diafenthiurun"],
+    "propiconazole": ["propiconazole", "propiconazol", "propiconazole"],
+    "chlorothalonil": ["chlorothalonil", "chlorothallonil", "chlorothalonel"],
+    "mancozeb": ["mancozeb", "mancozab", "mancozib"],
+    "copper oxychloride": ["copper oxychloride", "copper oxycloride", "copper oxichloride"],
+    "thiophenate": ["thiophenate", "thiophenat", "thiophenete"],
+    "azoxystrobin": ["azoxystrobin", "azoxystroben", "azoxystrobyn"],
+    "myclobutanil": ["myclobutanil", "myclobutanel", "myclobutanyl"],
+    "trichoderma": ["trichoderma", "tricoderma", "trichorderma"],
+    "bordeaux": ["bordeaux", "bordeux", "bordo"],
+    "difenoconazole": ["difenoconazole", "difenoconazol", "difenoconazole"],
+    "cyazofamid": ["cyazofamid", "cyazofamed", "cyazofamyd"],
+    "mandipropamid": ["mandipropamid", "mandipropamed", "mandipropamyd"]
+  },
+  "crops": {
+    "chilli": ["chili", "chilly", "chile", "chilie"],
+    "tomato": ["tomato", "tometo", "tamato"],
+    "banana": ["banana", "bananna", "banan"]
+  },
+  "diseases_pests": {
+    "thrips": ["trips", "thrips", "threps"],
+    "aphids": ["afids", "aphids", "afeds"],
+    "whiteflies": ["white flies", "whiteflys", "white fly"],
+    "jassids": ["jasids", "jasseds", "jaseds"],
+    "nematodes": ["nematods", "nematoides", "nematods"],
+    "sigatoka": ["sigatoka", "sigatok", "sigatoca"],
+    "alternaria": ["alternaria", "alternarya", "alternarea"],
+    "cercospora": ["cercospora", "cercospra", "cercospora"],
+    "fusarium": ["fusarium", "fusarum", "fusaryum"],
+    "powdery mildew": ["powdery mildew", "powdry mildew", "powder mildew"],
+    "damping off": ["damping of", "damping-off", "damping off"],
+    "bacterial wilt": ["bacterial wilt", "bacterial wilth", "bacterial welt"],
+    "late blight": ["late blight", "late blite", "lait blight"],
+    "early blight": ["early blight", "early blite", "erly blight"]
+  }
+}

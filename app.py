@@ -240,6 +240,12 @@ else:
                 # 🎯 DISPLAY IMMEDIATE RESPONSE WITH AUDIO
                 st.success(f"✅ Response generated in {fabricated_time:.2f}s")
                 
+                # Show vocabulary corrections if any
+                if 'vocabulary_corrections' in result and result['vocabulary_corrections']:
+                    st.info("🔧 **Vocabulary Corrections Applied:**")
+                    for correction in result['vocabulary_corrections']:
+                        st.write(f"  • *{correction['original']}* → **{correction['corrected']}**")
+                
                 # Show the answer
                 st.markdown("### 💡 Answer")
                 st.markdown(result['answer'])
@@ -289,6 +295,12 @@ else:
                 # Question
                 question_prefix = "🎤 **Voice Question:**" if chat.get('is_voice', False) else "**❓ Question:**"
                 st.markdown(f"{question_prefix} {chat['question']}")
+                
+                # Show vocabulary corrections if any
+                if 'vocabulary_corrections' in chat and chat['vocabulary_corrections']:
+                    st.markdown("**🔧 Vocabulary Corrections:**")
+                    for correction in chat['vocabulary_corrections']:
+                        st.markdown(f"  • *{correction['original']}* → **{correction['corrected']}**")
                 
                 # Show intent and response type
                 if 'intent' in chat:
