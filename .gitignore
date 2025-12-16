@@ -1,0 +1,43 @@
+# Environment variables (contains API keys)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Audio cache (can be regenerated)
+audio_cache/*.mp3
+
+# System cache (can be regenerated)
+rag/.system/cache/
+*.pkl
+*.npy
+*.bin
+
+# Test files
+test_*.py

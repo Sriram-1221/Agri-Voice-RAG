@@ -1,0 +1,10 @@
+streamlit
+openai>=1.6.1
+httpx>=0.24.0
+faiss-cpu
+python-dotenv
+gtts
+pygame
+numpy
+audio-recorder-streamlit
+pyaudio
